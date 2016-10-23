@@ -22,7 +22,7 @@ public final class RankMeUp extends JavaPlugin {
     }
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-    	if (cmd.getName().equalsIgnoreCase("rankmeup")) {
+    	if (cmd.getName().equalsIgnoreCase("rankmeup")||(cmd.getName().equalsIgnoreCase("rmu"))) {
     		//Player player = getServer().getPlayer(sender.getName());
     		Player player = (Player)sender;
     		TextChannel channel = DiscordSRV.getTextChannelFromChannelName("rankmeup");
