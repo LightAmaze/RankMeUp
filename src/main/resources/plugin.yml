@@ -1,16 +1,27 @@
 name: RankMeUp
 main: com.lightamaze.rankmeup.RankMeUp
-version: 1.1
+version: 1.2
 author: LightAmaze
 commands:
     rankmeup:
-      aliases: [rmu]
+      aliases: [rmu, rmu submit]
       description: Requests an admin to rank up the player.
       usage: /<command> [player]
       permission: rankmeup.rankmeup
       permission-message: You don't have <permission>
+    rmutoggle:
+      description: Toggles RMU submission.
+      usage: /rmutoggle
+      permission: rankmeup.toggle
+      permission-message: You don't have rankmeup.toggle
+
 permissions:
     rankmeup.rankmeup:
       description: Allows the user to request a rank
       default: true
+    rankmeup.toggle:
+      description: Allows the user to disable/enable RMU
+      default: op
+      
+      
 depend: [DiscordSRV]
