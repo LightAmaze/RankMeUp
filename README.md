@@ -1,7 +1,7 @@
 # RankMeUp
 A custom Minecraft plugin for bukkit - [craftbukkit](https://www.getbukkit.org/) / [spigot](https://www.spigotmc.org/) that chats in a discord channel with coordinates when a player inputs "/rankmeup"
 
-Download (stable): [RankMeUp.zip](https://github.com/LightAmaze/RankMeUp/files/546621/RankMeUp.zip)
+Download (stable): [RankMeUp.zip](https://github.com/LightAmaze/RankMeUp/files/546655/RankMeUp.zip)
 
 
 ## Notable
