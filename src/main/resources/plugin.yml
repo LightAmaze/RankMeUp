@@ -1,0 +1,15 @@
+name: RankMeUp
+main: com.lightamaze.rankmeup.RankMeUp
+version: 1.0
+author: LightAmaze
+commands:
+   rankmeup:
+      description: Requests an admin to rank up the player.
+      usage: /<command> [player]
+      permission: rankmeup.rankmeup
+      permission-message: You don't have <permission>
+permissions:
+    rankmeup.rankmeup:
+        description: Allows the user to request a rank
+ 		default: true
+depend: [DiscordSRV]
