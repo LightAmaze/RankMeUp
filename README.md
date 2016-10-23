@@ -1,7 +1,8 @@
 # RankMeUp
 A custom Minecraft plugin that chats in a discord channel with coordinates when a player inputs "/rankmeup"
 
-Download: https://github.com/LightAmaze/RankMeUp/files/546176/RankMeUp.zip
+Download: [RankMeUp.zip](https://github.com/LightAmaze/RankMeUp/files/546498/RankMeUp.zip)
+
 
 Notable:
 * One permission: rankmeup.rankmeup
