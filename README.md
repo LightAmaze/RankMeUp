@@ -1,11 +1,11 @@
 # RankMeUp
 A custom Minecraft plugin that chats in a discord channel with coordinates when a player inputs "/rankmeup"
 
-Download: [RankMeUp.zip](https://github.com/LightAmaze/RankMeUp/files/546498/RankMeUp.zip)
+Download: [RankMeUp.zip](https://github.com/LightAmaze/RankMeUp/files/546621/RankMeUp.zip)
 
 
 Notable:
-* One permission: rankmeup.rankmeup
+* Two permissions: rankmeup.rankmeup and rankmeup.toggle
 * Requires DiscordSRV, uses "rankmeup" channel specified in DiscordSRV's channel config
 * Video demonstration:
 
