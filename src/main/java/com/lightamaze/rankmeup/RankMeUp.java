@@ -18,16 +18,20 @@ public final class RankMeUp extends JavaPlugin {
   @Override
   public void onDisable() { }
 
+  private String formatLocation(Location location) {
+    // format: world - x, y, z
+    return String.format("%s - %.2f, %.2f, %.2f",
+         location.getWorld().getName(),
+         location.getX(),
+         location.getY(),
+         location.getZ());
+  }
+
   private void sendRankMessage(CommandSender sender) {
     Player player = (Player)sender;
     TextChannel channel = DiscordSRV.getTextChannelFromChannelName("rankmeup");
-    Location playerLocation = player.getLocation();
-    double x = playerLocation.getX();
-    double y = playerLocation.getY();
-    double z = playerLocation.getZ();
-    String world = playerLocation.getWorld().getName();
-    String locationString = String.format("%s - %.2f, %.2f, %.2f", world, x, y, z);
-    DiscordSRV.sendMessage(channel, "**" + sender.getName() + 
+    String locationString = formatLocation(player.getLocation());
+    DiscordSRV.sendMessage(channel, "**" + sender.getName() +
       "** is requesting to be ranked up for their build at coordinates **" + 
       locationString + "** @here");
     sender.sendMessage("You have requested for an admin to grade your build at " + 
